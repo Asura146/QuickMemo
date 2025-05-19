@@ -1,6 +1,5 @@
 // import { NextResponse, NextRequest } from "next/server";
 // import { getToken } from "next-auth/jwt";
-import { auth } from "../auth";
 
 export const config = {
   matcher: ["/((?!api|_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt).*)"],
