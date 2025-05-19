@@ -1,6 +1,7 @@
 import React from 'react';
 import { signOut, auth } from "../../../auth";
 import { redirect } from "next/navigation";
+import {Button} from '@heroui/button'; 
 
 export default async function Top() {
     // ログイン情報を取得
@@ -22,7 +23,7 @@ export default async function Top() {
                     await signOut({ redirectTo: "/" });
                 }}
             >
-                <button type="submit">Sign Out</button>
+                <Button type="submit">Sign Out</Button>
             </form>
         </div>
     );
