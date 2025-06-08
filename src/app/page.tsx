@@ -21,6 +21,7 @@ export default async function SignIn() {
         }}
         className="bg-white dark:bg-gray-800 p-4 rounded shadow-md"
       >
+        <h1>Googleでログイン</h1>
         <Button type="submit">Signin with Google</Button>
       </form>
       <ThemeSwitcher />
