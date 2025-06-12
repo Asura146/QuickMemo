@@ -1,10 +1,9 @@
 import { auth, signIn } from "../../auth"
 import { redirect } from "next/navigation"
 import { Button } from "@heroui/button"
-import { Card, CardHeader, CardBody} from "@heroui/card"
+import { Card } from "@heroui/card"
 import { Divider } from "@heroui/react"
 import  ThemeSwitcher  from "@/components/ThemeSwitcher";
-import { px } from "framer-motion";
  
 export default async function SignIn() {
   // ログインしているかどうかを確認
