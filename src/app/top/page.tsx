@@ -2,6 +2,7 @@ import React from 'react';
 import { signOut, auth } from "../../../auth";
 import { redirect } from "next/navigation";
 import {Button} from '@heroui/button'; 
+import ThemeSwitcher from '@/components/ThemeSwitcher';
 
 export default async function Top() {
     // ログイン情報を取得
@@ -25,6 +26,7 @@ export default async function Top() {
             >
                 <Button type="submit">Sign Out</Button>
             </form>
+            <ThemeSwitcher/>
         </div>
     );
 };
