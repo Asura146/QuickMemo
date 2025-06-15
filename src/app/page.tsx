@@ -15,8 +15,8 @@ export default async function SignIn() {
 
   return (
     <>
-      <div className="w-full h-screen bg-gray-100 dark:bg-gray-900 flex items-center justify-center">
-        <Card className="w-90 h-90 dark:bg-gray-950 bg-white flex flex-col p-4">
+      <div className="w-full h-screen bg-gray-100 dark:bg-linear-to-tr from-[#343434] to-[#151515] flex items-center justify-center">
+        <Card className="w-90 h-90 shadow-2xl drop-shadow-[0_0_100px_rgba(96,96,96,0.9)] dark:bg-gray-950 bg-white flex flex-col p-4">
           <h2 className="text-2xl font-bold  text-center text-black dark:text-white">ログイン</h2>
           <Divider className="my-4" />
           <div className="flex-1 flex items-center justify-center">
