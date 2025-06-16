@@ -13,7 +13,7 @@ export default async function Top() {
     }
 
     return (
-        <div>
+        <div className='w-full h-screen dark:bg-linear-to-tr from-[#343434] to-[#151515]'>
             <h1>Welcome to the Top Page</h1>
             {session && (
                 <p>ログイン中: {session.user?.email}</p>
