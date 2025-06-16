@@ -33,7 +33,7 @@ export default function RootLayout({
         <Providers>
           <SessionProvider>
             <Header/>
-            {children}
+            <main className="pt-15">{children}</main>
           </SessionProvider>
         </Providers>
       </body>
